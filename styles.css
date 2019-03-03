@@ -1,0 +1,46 @@
+body {
+color: #363636;
+font-size: 1.5rem;
+font-weight: 400;
+line-height: 1.5;
+background-color: whitesmoke;
+font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+
+.pojemnik {
+flex-grow: 1;
+flex-shrink: 0;
+text-align: center;
+}
+
+.wszystko
+{
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center; 
+}
+
+h1, h2, h3, h4, h5, h6, p{
+margin: 0;
+}
+
+.menu
+{
+    min-width: 10%;
+    height: 2rem;
+    background-color: #23d160;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+.menu:hover
+{
+    background-color: #21a850;
+
+}
+
+.meni {
+    padding-top: 0.5rem;
+}
