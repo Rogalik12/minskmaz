@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script>
+        var strona="";
+        function galeria()
+        {
+            strona = document.getElementById("all").innerHTML;
+            document.getElementById("all").innerHTML = "dab";
+        }
+        function close()
+        {
+            document.getElementById("all")=strona;
+        }
+        function photo(id)
+        {
+
+        }
+</script>
+        <title>Mińsk Mazowiecki - moja miłość od kolebki!</title>
+    </head>
+    <body>
+        <div class="wszystko" id="all">
+            <div class="pojemnik">
+                <div class="meni" id="menue">
+                    <button type="button" class="menu" onclick="galeria()">Galeria zdjęć</button>
+                    <button type="button" class="menu" onclick="js:location.href='ciekawoski.html'">Ciekawostki</button>
+                    <button type="button" class="menu_active" onclick="js:location.href='spot.html'">Spot promocyjny</button>
+                    <button type="button" class="menu" onclick="js:location.href='stats.html'">Statystyka</button>
+                    <button type="button" class="menu" onclick="js:location.href='stowarzyszenia.html'">Stowarzyszenia</button>
+                    <button type="button" class="menu" onclick="js:location.href='menu.html'">Ankieta</button>
+                    <br>
+                    <h2 style="margin-top: 15px;">Spot promocyjny</h2>
+                    <video src="spot.mp4"></video>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
