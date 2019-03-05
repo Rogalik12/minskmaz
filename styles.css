@@ -43,6 +43,21 @@ margin: 0;
 
 }
 
+.menu_active
+{
+    min-width: 10%;
+    height: 2rem;
+    background-color: #21a850;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.menu_active:hover{
+    background-color: #1b8b42;
+}
+
 .meni {
     padding-top: 0.5rem;
 }
