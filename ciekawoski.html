@@ -2,18 +2,11 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="styles.css">
-        <script>
-        var strona="";
-        function galeria()
-        {
-            strona = document.getElementById("menue").innerHTML;
-            document.getElementById("menue").innerHTML = "dab";
-        }
-</script>
+        <script src="script.js"></script>
         <title>Mińsk Mazowiecki - moja miłość od kolebki!</title>
     </head>
     <body>
-        <div class="wszystko">
+        <div class="wszystko" id="all">
             <div class="pojemnik">
                 <div class="meni" id="menue">
                     <button type="button" class="menu" onclick="galeria()">Galeria zdjęć</button>

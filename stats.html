@@ -2,29 +2,59 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="styles.css">
-        <script>
-        var strona="";
-        function galeria()
-        {
-            strona = document.getElementById("menue").innerHTML;
-            document.getElementById("menue").innerHTML = "dab";
-        }
-</script>
+        <script src="script.js"></script>
         <title>Mińsk Mazowiecki - moja miłość od kolebki!</title>
     </head>
     <body>
-        <div class="wszystko">
+        <div class="wszystko" id="all">
             <div class="pojemnik">
                 <div class="meni" id="menue">
                     <button type="button" class="menu" onclick="galeria()">Galeria zdjęć</button>
-                    <button type="button" class="menu_active" onclick="js:location.href='ciekawoski.html'">Ciekawostki</button>
+                    <button type="button" class="menu" onclick="js:location.href='ciekawoski.html'">Ciekawostki</button>
                     <button type="button" class="menu" onclick="js:location.href='spot.html'">Spot promocyjny</button>
-                    <button type="button" class="menu" onclick="js:location.href='stats.html'">Statystyka</button>
+                    <button type="button" class="menu_active" onclick="js:location.href='stats.html'">Statystyka</button>
                     <button type="button" class="menu" onclick="js:location.href='stowarzyszenia.html'">Stowarzyszenia</button>
                     <button type="button" class="menu" onclick="js:location.href='menu.html'">Ankieta</button>
                     <br>
-                    <h2 style="margin-top: 15px;">Ciekawostki</h2>
+                    <h2 style="margin-top: 15px;  margin-bottom: 15px;">Statystyka</h2>
                 </div>
+<table align="center" style="width: 50%">
+    <tr>
+        <th>Rok</th>
+        <th>Mieszkańców</th>
+        <th>W tym kobiet</th>
+    </tr>
+    <tr>
+        <td>2019</td>
+        <td>51616</td>
+        <td>26162</td>
+    </tr>
+    <tr>
+        <td>2018</td>
+        <td>51616</td>
+        <td>26162</td>
+    </tr>
+    <tr>
+        <td>2017</td>
+        <td>51616</td>
+        <td>26162</td>
+    </tr>
+    <tr>
+        <td>2016</td>
+        <td>51616</td>
+        <td>26162</td>
+    </tr>
+    <tr>
+        <td>2015</td>
+        <td>51616</td>
+        <td>26162</td>
+    </tr>
+    <tr>
+        <td>2014</td>
+        <td>51616</td>
+        <td>26162</td>
+    </tr>
+</table>
             </div>
         </div>
     </body>

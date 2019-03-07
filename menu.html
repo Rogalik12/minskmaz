@@ -1,0 +1,56 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="script.js"></script>
+        <title>Mińsk Mazowiecki - moja miłość od kolebki!</title>
+    </head>
+
+    <body>
+        <div class="wszystko" id="all">
+            <div class="pojemnik">
+                <div class="meni" id="menue">
+                    <button type="button" class="menu" onclick="galeria()">Galeria zdjęć</button>
+                    <button type="button" class="menu" onclick="js:location.href='ciekawoski.html'">Ciekawostki</button>
+                    <button type="button" class="menu" onclick="js:location.href='spot.html'">Spot promocyjny</button>
+                    <button type="button" class="menu" onclick="js:location.href='stats.html'">Statystyka</button>
+                    <button type="button" class="menu" onclick="js:location.href='stowarzyszenia.html'">Stowarzyszenia</button>
+                    <button type="button" class="menu_active" onclick="js:location.href='menu.html'">Ankieta</button>
+                    <br>
+                    <h2 style="margin-top: 15px;  margin-bottom: 15px;">Ankieta</h2>
+                </div>
+                
+                <form id="forms">
+                    <input type="text" placeholder="Miasto">
+                    <select placeholder="Województwo">
+                        <option>Województwo</option>
+                        <option>dolnośląskie</option>
+                        <option>kujawsko-pomorskie</option>
+                        <option>lubelskie</option>
+                        <option>lubuskie</option>
+                        <option>łódzkie</option>
+                        <option>małopolskie</option>
+                        <option>mazowieckie</option>
+                        <option>opolskie</option>
+                        <option>podkarpackie</option>
+                        <option>podlaskie</option>
+                        <option>pomorskie</option>
+                        <option>śląskie</option>
+                        <option>świętokrzyskie</option>
+                        <option>warmińsko-mazurskie</option>
+                        <option>wielkopolskie</option>
+                        <option>zachodniopomorskie</option>
+                        <option>mieszkam poza granicami kraju</option>
+                    </select>
+                    <br>
+                    <p style="margin-top:10px; margin-bottom: 10px;">Czy jest Pan/i zadowolony/a z tego, jak funkcjonuje Pana/i miasto?</p>
+                    <p style="margin-bottom:10px;"><b>TAK</b><input type="radio" name="is-good"> <b>NIE</b><input type="radio" name="is-good"></p>
+                    <input type="submit" class="menu_active" onclick="ankieta()" value="Prześlij"></input>
+                </form>
+
+            </div>
+        </div>
+    </body>
+
+</html>
