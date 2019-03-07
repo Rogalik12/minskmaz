@@ -1,9 +1,9 @@
 var strona = "";
 
-var i1 = "img src=\"img1.jpg\" onclick=\"photo(i1)\""
-var i2 = "img src=\"img2.jpg\" onclick=\"photo(i2)\""
-var i3 = "img src=\"img3.jpg\" onclick=\"photo(i3)\""
-var i4 = "img src=\"img4.jpg\" onclick=\"photo(i4)\""
+var i1 = "img src=\"/imgs/img1.jpg\" onclick=\"photo(i1)\""
+var i2 = "img src=\"/imgs/img2.jpg\" onclick=\"photo(i2)\""
+var i3 = "img src=\"/imgs/img3.jpg\" onclick=\"photo(i3)\""
+var i4 = "img src=\"/imgs/img4.jpg\" onclick=\"photo(i4)\""
 
 function galeria() {
     strona = document.getElementById("all").innerHTML;
